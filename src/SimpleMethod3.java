@@ -8,19 +8,20 @@ public class SimpleMethod3 {
           Overloaded methods can even call each-other, but you'll have to type
           the arguments correctly and cast upon return.
      */
-    public static int square(int number) {
+    public static int square(int input) {
         // Put your code here
-        return 0;
+
+        return input * input;
     }
 
-    public static double square(double number) {
+    public static double square(double input2) {
         // Put your code here
-        return 0;
+
+        return input2 * input2;
     }
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("What number would you like to square: ");
         /* Integers Used */
         int input = Integer.valueOf(scanner.nextLine());
