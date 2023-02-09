@@ -1,3 +1,10 @@
+/**
+ *
+ * @author Trevor Hartman
+ * @author Jason Carr
+ *
+ * @since Version 1.0
+ */
 import java.util.Scanner;
 
 public class Radians {
